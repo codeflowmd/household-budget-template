@@ -25,9 +25,17 @@ Create a blank spreadsheet, choose File > Import > Upload, pick the file and sel
 
 ## When the spreadsheet stops being enough
 
-The usual breaking point is typing: every receipt and every bank line by hand, by two people. [Kinjar](https://kinjar.app) is the app we built on the same envelopes-by-percentage method. You photograph receipts or upload a CSV/Excel statement from any bank, the AI turns them into transactions you review, and both partners work in the same ledger. It never asks for a bank login. There's a read-only demo household you can open without an account: https://app.kinjar.app/demo?lang=en
+The usual breaking point is typing: every receipt and every bank line by hand, by two people. [Kinjar](https://kinjar.app) is the app we built on the same envelopes-by-percentage method. You photograph receipts or upload a CSV, Excel or PDF statement from any bank, the AI turns them into transactions you review, and both partners work in the same ledger. It never asks for a bank login. There's a read-only demo household you can open without an account: https://app.kinjar.app/demo?lang=en
 
 This repository is only the spreadsheet. Nothing in it connects to Kinjar or to any server.
+
+## Free calculators that go with it
+
+They run in the browser, with no account and nothing to install:
+
+- [Couples bill split calculator](https://kinjar.app/guides/couples-bill-split-calculator/): split shared costs 50/50, by income, or so you both keep the same amount
+- [Envelope budget calculator](https://kinjar.app/guides/envelope-budget-calculator/): turn each envelope's percentage into an amount, for this month and a leaner one
+- [Multi-currency budget calculator](https://kinjar.app/guides/multi-currency-budget-calculator/): one household total from incomes in several currencies, plus what exchange rates and fees cost you
 
 ---
 
@@ -38,5 +46,11 @@ Un șablon Excel gratuit pentru bugetul familiei, în care fiecare plic e un pro
 Se deschide în Excel, Google Sheets, LibreOffice și Numbers. Fișierul: [`kinjar-buget-familie-excel.xlsx`](kinjar-buget-familie-excel.xlsx). Ghidul pas cu pas: https://kinjar.app/ro/ghiduri/buget-familie-excel/
 
 Când te saturi să scrii de mână fiecare bon, [Kinjar](https://kinjar.app/ro/) folosește aceeași metodă, iar bonurile și extrasele de la orice bancă le introduce AI-ul. Gospodăria demo se poate vedea fără cont: https://app.kinjar.app/demo?lang=ro
+
+Calculatoare gratuite, merg în browser, fără cont:
+
+- [Împărțirea cheltuielilor în cuplu](https://kinjar.app/ro/ghiduri/calculator-impartire-cheltuieli-cuplu/): 50/50, după venit sau ca să vă rămână amândurora aceeași sumă
+- [Buget pe plicuri](https://kinjar.app/ro/ghiduri/calculator-buget-plicuri/): procentul fiecărui plic devine sumă, pentru luna asta și pentru una mai slabă
+- [Buget în mai multe monede](https://kinjar.app/ro/ghiduri/calculator-buget-mai-multe-monede/): un singur total pentru venituri în monede diferite și cât te costă cursul și comisioanele
 
 Made by Codeflow SRL, the company behind Kinjar. Questions: hello@kinjar.app
